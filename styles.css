@@ -1,0 +1,81 @@
+@import url('https://googleapis.com');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header, .hero, footer {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button, .cta {
+    background-color: #3882F6;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1f2937
+    weight: 300;
+    font-style: italic;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+}
+
+li a, a {
+    text-decoration: none;
+}
+
+li a {
+    color: #E5E7EB;
+}
+/* FLEX SEPARATE TO READ AND UNDERSTAND BETTER */
+header{
+    
+}
+
+ul{
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+}
+
+li.logo {
+    margin-right: auto;
+}
+
+nav{
+    padding: 12px;
+    margin:0 5rem;
+}
