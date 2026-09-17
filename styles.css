@@ -175,9 +175,7 @@ blockquote {
     font-weight: 900;
     margin: 0;
 }
-div .cta {
-    background-color: #E5E7EB;
-}
+
 .container {
     margin: 5rem 6rem;
     padding: 48px 64px;
@@ -186,6 +184,7 @@ div .cta {
     justify-content: center;
     align-items: center;
     gap: 16px;
+    background-color: #3882F6;
 }
 
 .container .text{
