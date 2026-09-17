@@ -1,5 +1,7 @@
 @import url('https://googleapis.com');
-
+*{
+    box-sizing: border-box;
+}
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -61,8 +63,10 @@ li a {
     color: #E5E7EB;
 }
 /* FLEX SEPARATE TO READ AND UNDERSTAND BETTER */
-header{
-    
+body{
+    display: flex;
+    flex-direction: column;
+ 
 }
 
 ul{
@@ -77,5 +81,40 @@ li.logo {
 
 nav{
     padding: 12px;
-    margin:0 5rem;
+    margin:0 5rem 0 5rem;
+}
+
+.hero {
+    padding: 5rem;
+    display: flex;
+    flex: 1;
+    gap: 24px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+img {
+    display: flex;
+    width: 377px;
+    flex: auto;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    border-radius: 8px;
+    border: none;
 }
