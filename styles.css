@@ -2,6 +2,7 @@
 
 *{
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 p {margin: 0;
     padding: 0 0 8px 0;
@@ -92,6 +93,7 @@ nav{
     padding: 5rem;
     gap: 24px;
     display: flex;
+    align-items: center;
     
 }
 .hero-content p {
@@ -100,14 +102,16 @@ nav{
 .hero-content{
     display: flex;
     flex-direction: column;
-    flex: auto;
+    flex: none;
     width: 500px;
 }
 
 img {
     display: flex;
-    width: 377px;
-    flex: auto;
+    width: 500px;
+    flex: none;
+    height: auto;
+    max-width: 50%;
 }
 
 h1 {
