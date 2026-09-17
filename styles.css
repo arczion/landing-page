@@ -2,6 +2,9 @@
 *{
     box-sizing: border-box;
 }
+p {margin: 0;
+    padding: 0 0 8px 0;
+}
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -27,7 +30,7 @@ header, .hero, footer {
     color: #E5E7EB;
 }
 
-.button, .cta {
+.button, .container {
     background-color: #3882F6;
 }
 
@@ -158,7 +161,7 @@ button {
 }
 
 blockquote {
-    padding: 64px;
+    padding: 64px 128px;
     margin: 0;
 
 }
@@ -167,4 +170,33 @@ blockquote {
     font-size: large;
     font-weight: 900;
     margin: 0;
+}
+div .cta {
+    background-color: #E5E7EB;
+}
+.container {
+    margin: 5rem 6rem;
+    padding: 48px 64px;
+    display: flex;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.container .text{
+    color: white;
+
+}
+
+.text p.title {
+    font-weight: 900;
+    margin: 0;
+}
+
+.container button {
+    /* padding: 4px 8px; */
+    border: 5px solid white;
+    border-radius: 8px;
+    background-color: none;
 }
