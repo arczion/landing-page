@@ -43,8 +43,8 @@ header, .hero, footer {
 
 blockquote {
     font-size: 36px;
-    color: #1f2937
-    weight: 300;
+    color: #1f2937;
+    font-weight: 300;
     font-style: italic;
 }
 
